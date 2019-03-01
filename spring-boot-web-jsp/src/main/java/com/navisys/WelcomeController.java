@@ -20,7 +20,9 @@ public class WelcomeController {
 		String str1 = "Commit 01";
 		String str2 = "Commit 02";
 		
-		return "welcome" + str1 + str2;
+		String str3 = "Commit 03";
+		
+		return "welcome" + str1 + str2 + str3;
 	}
 
 }
